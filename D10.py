@@ -28,6 +28,8 @@ def resultat(lancer):
             r="Echec"
         if s > 0:
             r="Valeur de la réussite", s
+        if s > 5:
+            r="Réussite critique", s
     print(r)
         
 nbDes = int(input("Saisissez le nombre de dés : "))
