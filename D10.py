@@ -23,7 +23,7 @@ def resultat(lancer):
         if i == 1:
             s=s-1
         if s < 0:
-            r="Echec critique"
+            r="Echec critique", s
         if s == 0:
             r="Echec"
         if s > 0:
