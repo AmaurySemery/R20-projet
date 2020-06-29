@@ -17,7 +17,6 @@ def resultat(lancer):
     for i in lancer:
         if i > 5:
             s=s+1
-            reu=reu+1
         if i > 1 and i < 6:
             s=s
         if i == 1:
@@ -27,7 +26,7 @@ def resultat(lancer):
         if s == 0:
             r="Echec"
         if s > 0:
-            r="Valeur de la réussite", reu
+            r="Valeur de la réussite", s
     print(r)
         
 nbDes = int(input("Saisissez le nombre de dés : "))
